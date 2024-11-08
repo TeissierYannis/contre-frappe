@@ -1,0 +1,39 @@
+# Artifacts and build directories
+/target/
+**/*.rs.bk
+
+# Log files
+*.log
+
+# Editor directories
+**/.DS_Store
+**/Thumbs.db
+
+# Editor directories
+.vscode/
+/.vscode/*
+.idea/
+/.idea/*
+contre-frappe.iml
+
+# Compilation files
+/.cargo/
+/Cargo.lock
+
+# Temp test files
+/coverage/
+/target/coverage/
+/tests/target/
+
+# Temp files
+*.snap
+*.out
+
+# Debugging and profiling files
+*.dSYM/
+*.profraw
+*.profdata
+
+# Personal settings
+rust-toolchain.toml
+
